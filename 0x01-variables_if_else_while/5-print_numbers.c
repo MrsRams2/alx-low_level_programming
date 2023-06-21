@@ -1,21 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return : Always 0
+ * main - Entry Point
+ * Description: 'program that prints all single digit numbers'
+ * Return: Always 0
  */
 
 int main(void)
 {
-	int num;
+	int n;
 
-	while (num < 10)
+	for (n = 0; n <= 9; n++)
 	{
-		printf("%d", num);
-		num += 1;
+		printf("%d", n);
 	}
-		printf("\n");
+	printf('\n');
+	return (0);
 
-		return (0);
 }
