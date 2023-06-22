@@ -9,16 +9,12 @@ void print_alphabet_x10(void)
 {
 
 char ch;
-int a;
-i = 0;
-while (i < 10)
+int tens;
+
+for (tens = 0; tens <= '9'; tens++)
 {
 for (ch = 'a'; ch <= 'z'; ch++)
-{
 _putchar(ch);
-}
 _putchar('\n');
-i++;
 }
-
 }
