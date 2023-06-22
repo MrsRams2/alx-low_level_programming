@@ -15,7 +15,9 @@ for (tens = 0; tens <= '9'; tens++)
 {
 for (ch = 'a'; ch <= 'z'; ch++)
 _putchar(ch);
+{
 _putchar('\n');
 tens++;
+}
 }
 }
