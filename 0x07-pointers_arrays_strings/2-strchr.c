@@ -2,20 +2,21 @@
 
 /**
  * _strchr - function that locates a character in a string
- * @s: input value
- * @c: input value
+ * @s: strig value
+ * @c: character value
  *
- * Return: Always 0
+ * Return: pointer to the first occurrence
+ * NULL if the character is not found
  */
 
 char *_strchr(char *s, char c)
 {
-int i = 0;
+int i;
 
-for (; s[i] >= '\0'; i++)
+for (i = 0; s[i] >= '\0'; i++)
 {
-if s(s[i] == c)
-	return (&s[i]);
+if (s[i] == c)
+	return (s + i);
 }
-return (0);
+return ('\0');
 }
