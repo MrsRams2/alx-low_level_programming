@@ -8,7 +8,7 @@
  * @n: the number of strings passed to the function
  * @...: Variable number of strings to be printed
  *
- * Return: If separator is NULL, don’t print it
+ * Description: If separator is NULL, don’t print it
  * If one of the string is NULL, print (nil) instead
  */
 
@@ -30,6 +30,6 @@ else
 if (sep != (n - 1) && separator != NULL)
 	printf("%s", separator);
 }
-print("\n");
+printf("\n");
 va_end(string);
 }
